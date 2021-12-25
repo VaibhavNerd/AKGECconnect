@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/ChitChatapp/app/src/main/res/layout/delete_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/ChitChatapp/app/src/main/res/layout/demo_layout.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_ai.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_dash_board.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_docs.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_docs_e.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_feed_back.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_i_sangeet.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_o_t_p.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_phone_number.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_play_song.xml" value="0.128125" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_s19.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_section.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/activity_setup_profile.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/fragment_first.xml" value="0.176" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/fragment_second.xml" value="0.136" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/item_receive.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/Internship Task/app/src/main/res/layout/item_sent_group.xml" value="0.25" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/font/allerta_stencil.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/font/arbutus_slab.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/font/atomic_age.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/font/crete_round.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/font/finger_paint.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/font/roboto_light.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/layout/activity_dash_board.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/layout/activity_dash_board2.xml" value="0.264" />
+        <entry key="..\:/Users/vaibh/AndroidStudioProjects/mini Poject/app/src/main/res/layout/item_receive.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

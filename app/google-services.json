@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "301374285074",
+    "project_id": "internship-task-18c1d",
+    "storage_bucket": "internship-task-18c1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301374285074:android:cdc8dbec328b2cff157fcb",
+        "android_client_info": {
+          "package_name": "com.vaibhav.AKGECchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301374285074-43ql912r5bp2g30m2acehfbdds3uoad1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaibhav.AKGECchat",
+            "certificate_hash": "2dce1a8a2414083928dba0c3d3c8a5e8a1eb1f63"
+          }
+        },
+        {
+          "client_id": "301374285074-r5t4u2587f27gusfibtlheoea4lhq6rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ8Q6C7pTTTTATlUbQJPxVDH6UTBHdNyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301374285074-r5t4u2587f27gusfibtlheoea4lhq6rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

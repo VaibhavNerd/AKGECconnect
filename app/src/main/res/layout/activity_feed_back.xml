@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vaibhav.AKGECchat.Screens.FeedBack"
+    android:background="@drawable/bg2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/akg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/crete_round"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="HELP US IMPROVE!"
+                android:textColor="#130707"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/dip1"
+                android:layout_marginStart="125dp">
+            </ImageView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello !"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="@color/black">
+                </TextView>
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I am Vaibhav Yadav , from CS-2."
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="@color/black">
+                </TextView>
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thanks for using our APP. We want to provide the best experience possible! To help us, please take a moment to leave your feedback ,like reporting a bug, any update etc. "
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="@color/black">
+                </TextView>
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Use Gmail for giving feedback."
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="@color/black">
+                </TextView>
+            </ScrollView>
+
+
+            <EditText
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30sp"
+                android:hint="ENTER THE SUBJECT"
+                android:textColorHint="#151414"
+                android:textSize="24sp">
+
+            </EditText>
+            <EditText
+                android:id="@+id/body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10sp"
+                android:hint="ENTER YOUR FEEDBACK"
+                android:textColorHint="#151414"
+                android:textSize="24sp">
+
+            </EditText>
+            <ImageView
+                android:id="@+id/send"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                android:src="@drawable/feed">
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
