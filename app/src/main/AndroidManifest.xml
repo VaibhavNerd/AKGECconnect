@@ -16,13 +16,8 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".Screens.DashBoard2"
-            android:exported="true"
-            android:theme="@style/Theme.ChatsApp.NoActionBar" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity android:name=".Activities.GroupChatActivity" />
         <activity
@@ -35,7 +30,12 @@
         <activity
             android:name=".Activities.PhoneNumberActivity"
             android:windowSoftInputMode="stateVisible">
+            android:theme="@style/Theme.ChatsApp.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Activities.MainActivity"
@@ -67,7 +67,7 @@
         <activity android:name=".Screens.S19" />
         <activity android:name=".Screens.Section" />
         <activity android:name=".Screens.MyCollege" />
-        <activity android:name=".Screens.DashBoard"></activity>
+
         <activity android:name=".Screens.Login" />
         <activity android:name=".Screens.Register"></activity>
         <activity

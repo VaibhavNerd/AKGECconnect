@@ -125,7 +125,7 @@ public class Register extends AppCompatActivity {
                                     Log.d(TAG, "onFailure: "+ e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(),DashBoard.class));
+                            startActivity(new Intent(getApplicationContext(),DashBoard2.class));
                         }else{
                             Toast.makeText(Register.this, "Error ! "+ Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);

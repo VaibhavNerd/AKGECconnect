@@ -19,7 +19,8 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.vaibhav.AKGECchat.Models.User;
-import com.vaibhav.AKGECchat.Screens.DashBoard;
+import com.vaibhav.AKGECchat.Screens.DashBoard2;
+import com.vaibhav.AKGECchat.Screens.DashBoard2;
 import com.vaibhav.AKGECchat.Screens.Profile;
 import com.vaibhav.AKGECchat.databinding.ActivitySetupProfileBinding;
 
@@ -103,7 +104,7 @@ public class SetupProfileActivity extends AppCompatActivity {
                                                     @Override
                                                     public void onSuccess(Void aVoid) {
                                                         dialog.dismiss();
-                                                        Intent intent = new Intent(SetupProfileActivity.this, DashBoard.class);
+                                                        Intent intent = new Intent(SetupProfileActivity.this, DashBoard2.class);
                                                         startActivity(intent);
                                                         finish();
                                                     }
@@ -127,7 +128,7 @@ public class SetupProfileActivity extends AppCompatActivity {
                                 @Override
                                 public void onSuccess(Void aVoid) {
                                     dialog.dismiss();
-                                    Intent intent = new Intent(SetupProfileActivity.this, DashBoard.class);
+                                    Intent intent = new Intent(SetupProfileActivity.this, DashBoard2.class);
                                     startActivity(intent);
                                     finish();
                                 }

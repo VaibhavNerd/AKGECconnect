@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.vaibhav.AKGECchat.Screens.DashBoard;
+import com.vaibhav.AKGECchat.Screens.DashBoard2;
+import com.vaibhav.AKGECchat.Screens.DashBoard2;
 import com.vaibhav.AKGECchat.databinding.ActivityPhoneNumberBinding;
 
 public class PhoneNumberActivity extends AppCompatActivity {
@@ -26,7 +27,7 @@ public class PhoneNumberActivity extends AppCompatActivity {
 
         if(auth.getCurrentUser() != null) {
 
-            Intent intent = new Intent(PhoneNumberActivity.this, DashBoard.class);
+            Intent intent = new Intent(PhoneNumberActivity.this, DashBoard2.class);
             startActivity(intent);
             finish();
         }
