@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ChatsApp"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".subjects"
+            android:name=".Screens.subjects"
             android:exported="false" />
         <activity
             android:name=".Screens.TimeTable"

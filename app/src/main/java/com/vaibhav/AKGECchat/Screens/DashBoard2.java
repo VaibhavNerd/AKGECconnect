@@ -11,6 +11,8 @@ import android.widget.RelativeLayout;
 import com.vaibhav.AKGECchat.Activities.MainActivity;
 import com.vaibhav.AKGECchat.R;
 
+import javax.security.auth.Subject;
+
 public class DashBoard2 extends AppCompatActivity {
 
     RelativeLayout Profile, College, Academics, Entertainment,  chat, TimeTable;
@@ -20,13 +22,13 @@ public class DashBoard2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board2);
-        College = (RelativeLayout) findViewById(R.id.College);
+        College = (RelativeLayout) findViewById(R.id.college);
         Profile = (RelativeLayout) findViewById(R.id.Profile);
-        Academics = (RelativeLayout) findViewById(R.id.Academics);
-        Entertainment = (RelativeLayout) findViewById(R.id.Entertainment);
+        Academics = (RelativeLayout) findViewById(R.id.academics);
+        Entertainment = (RelativeLayout) findViewById(R.id.music);
         feedback = findViewById(R.id.feedback);
-        chat = (RelativeLayout) findViewById(R.id.Connect);
-        TimeTable = findViewById(R.id.TimeTable);
+        chat = (RelativeLayout) findViewById(R.id.connect);
+        TimeTable = findViewById(R.id.timeTable);
 
         Profile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +47,7 @@ public class DashBoard2 extends AppCompatActivity {
         Academics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Section.class));
+                startActivity(new Intent(getApplicationContext(), subjects.class));
 
             }
         });
