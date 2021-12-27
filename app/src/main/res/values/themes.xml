@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.ChatsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimary">#3A77D1</item>
         <item name="colorPrimaryVariant">#3167B7</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -16,7 +16,7 @@
 
     <style name="Theme.ChatsApp.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimary">#3A77D1</item>
         <item name="colorPrimaryVariant">#3167B7</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

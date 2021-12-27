@@ -12,6 +12,10 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
+
+    <string name="timeTabe"> <u>Time-Table</u></string>
+    <string name="btn_add_contact"><u>Add new contact</u></string>
+
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>

@@ -15,10 +15,14 @@
         android:theme="@style/Theme.ChatsApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".subjects"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TimeTable"
+            android:exported="false" />
+        <activity
             android:name=".Screens.DashBoard2"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity android:name=".Activities.GroupChatActivity" />
         <activity
             android:name=".Activities.ChatActivity"
@@ -26,7 +30,7 @@
         <activity android:name=".Activities.SetupProfileActivity" />
         <activity
             android:name=".Activities.OTPActivity"
-            android:windowSoftInputMode="stateVisible"></activity>
+            android:windowSoftInputMode="stateVisible" />
         <activity
             android:name=".Activities.PhoneNumberActivity"
             android:windowSoftInputMode="stateVisible">
@@ -67,9 +71,8 @@
         <activity android:name=".Screens.S19" />
         <activity android:name=".Screens.Section" />
         <activity android:name=".Screens.MyCollege" />
-
         <activity android:name=".Screens.Login" />
-        <activity android:name=".Screens.Register"></activity>
+        <activity android:name=".Screens.Register" />
         <activity
             android:name=".Screens.Profile"
             tools:ignore="MissingClass" />

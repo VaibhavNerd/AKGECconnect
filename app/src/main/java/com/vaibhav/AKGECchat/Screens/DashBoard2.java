@@ -13,7 +13,7 @@ import com.vaibhav.AKGECchat.R;
 
 public class DashBoard2 extends AppCompatActivity {
 
-    RelativeLayout Profile, College, Academics, Entertainment,  chat;
+    RelativeLayout Profile, College, Academics, Entertainment,  chat, TimeTable;
     ConstraintLayout feedback;
 
     @Override
@@ -26,6 +26,7 @@ public class DashBoard2 extends AppCompatActivity {
         Entertainment = (RelativeLayout) findViewById(R.id.Entertainment);
         feedback = findViewById(R.id.feedback);
         chat = (RelativeLayout) findViewById(R.id.Connect);
+        TimeTable = findViewById(R.id.TimeTable);
 
         Profile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,5 +70,13 @@ public class DashBoard2 extends AppCompatActivity {
 
             }
         });
+       TimeTable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), TimeTable.class));
+
+            }
+        });
+
     }
 }
