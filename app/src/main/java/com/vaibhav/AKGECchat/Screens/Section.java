@@ -21,7 +21,7 @@ public class Section extends AppCompatActivity {
         mySection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),S19.class));
+                startActivity(new Intent(getApplicationContext(),subjects.class));
             }
         });
     }

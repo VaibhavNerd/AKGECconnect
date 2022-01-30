@@ -24,7 +24,7 @@ public class Maths extends AppCompatActivity {
         joinMath.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://meet.google.com/lookup/gun7geb7p4?authuser=1&hs=179";
+                String url = "https://www.akgec.ac.in/wp-content/uploads/2020/02/BINAYAK_PARASHAR_profile.pdf";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

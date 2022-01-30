@@ -23,7 +23,7 @@ public class Mechanics extends AppCompatActivity {
         joinMech.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://meet.google.com/lookup/avvsebntzj?authuser=1&hs=179";
+                String url = "https://drive.google.com/file/d/1zZDED1dzoCDg48uf6MMtHezSRrzBJedV/view";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

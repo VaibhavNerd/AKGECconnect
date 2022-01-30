@@ -67,8 +67,6 @@ public class TimeTable extends AppCompatActivity {
                         }
 
 
-
-
     }
 
                     @Override

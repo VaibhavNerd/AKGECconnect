@@ -1,40 +1,45 @@
 package com.vaibhav.AKGECchat.Screens;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.renderscript.ScriptGroup;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.vaibhav.AKGECchat.R;
+import com.vaibhav.AKGECchat.databinding.ActivityFeedBackBinding;
 
 public class FeedBack extends AppCompatActivity {
-    EditText sub,body;
-    ImageView send;
+     ActivityFeedBackBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_feed_back);
-        sub=findViewById(R.id.sub);
-        body=findViewById(R.id.body);
-        send=findViewById(R.id.send);
-        send.setOnClickListener(new View.OnClickListener() {
+       // setContentView(R.layout.activity_feed_back);
+        binding= ActivityFeedBackBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+
+          binding.buttSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s=sub.getText().toString();
-                String b=body.getText().toString();
+                String s=binding.editSubject.getText().toString();
+                String b=binding.editFeedBack.getText().toString();
+
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("text/plain");
                 i.putExtra(Intent.EXTRA_EMAIL,
-                        new String[] { "vaibhavdudeperfect@gmail.com.com"});
+                        new String[] { "vaibhav2012093@akgec.ac.in"});
                 i.putExtra(Intent.EXTRA_SUBJECT,s);
                 i.putExtra(Intent.EXTRA_TEXT, b);
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
+
                 } catch (android.content.ActivityNotFoundException ex) {
                     Toast.makeText(FeedBack.this,
                             "There are no email clients installed.",

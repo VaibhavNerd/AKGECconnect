@@ -29,8 +29,10 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.storage.FirebaseStorage;
 import com.vaibhav.AKGECchat.Activities.ChatActivity;
+import com.vaibhav.AKGECchat.Activities.PhoneNumberActivity;
 import com.vaibhav.AKGECchat.Models.User;
 import com.vaibhav.AKGECchat.R;
+import com.vaibhav.AKGECchat.databinding.ActivityPhoneNumberBinding;
 import com.vaibhav.AKGECchat.databinding.ActivityProfileBinding;
 
 import java.text.SimpleDateFormat;
@@ -63,19 +65,7 @@ public class Profile extends AppCompatActivity {
         storage = FirebaseStorage.getInstance();
 
                 String userid = fAuth.getUid();
-//        database.child("users").child(userid).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-//            @Override
-//            public void onComplete(@NonNull Task<DataSnapshot> task) {
-//                if (!task.isSuccessful()) {
-//                    Log.e("firebase", "Error getting data", task.getException());
-//                }
-//                else {
-//                    Log.d("firebase", String.valueOf(task.getResult().getValue()));
-//
-//                }
-//            }
-//        });
-     //  User user1 = FirebaseDatabase.getInstance().getReference().child("users").child(userid).
+
 
                 database.child("users")
                 .child(userid)
@@ -105,61 +95,13 @@ public class Profile extends AppCompatActivity {
                     }
                 });
 
-       //String Name =  fAuth.getCurrentUser().getDisplayName();
 
-        //String PhoneNum =  fAuth.getCurrentUser().getPhoneNumber();
-
-       // setContentView(R.layout.activity_profile);
-       // phone=findViewById(R.id.profilePhone);
         logout=findViewById(R.id.logout);
-      //  fullName=findViewById(R.id.profileName);
-//        Intent intent = getIntent();
-//        String Name = intent.getStringExtra("name");
-//        binding.profileName.setText(Name);
 
-
-       // email=findViewById(R.id.profileEmail);
-//        fAuth=FirebaseAuth.getInstance();
-//        fStore=FirebaseFirestore.getInstance();
-//        userId= Objects.requireNonNull(fAuth.getCurrentUser()).getUid();
-//        DocumentReference documentReference = fStore.collection("users").document(userId);
-//
-//        documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
-//            @Override
-//            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
-//                assert documentSnapshot != null;
-//                if(documentSnapshot.exists()){
-////                    phone.setText(documentSnapshot.getString("phone"));
-////                    fullName.setText(documentSnapshot.getString("fName"));
-////                    email.setText(documentSnapshot.getString("email"));
-//
-//
-//
-//
-//                    FirebaseDatabase.getInstance().getReference();
-//
-//
-//
-//                }else {
-//                    Log.d("tag", "onEvent: Document do not exists");
-//                }
-//            }
-//        });
-
-
-//        logout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                FirebaseAuth.getInstance().signOut();
-//                startActivity(new Intent(getApplicationContext(),Login.class));
-//                finish();
-//
-//            }
-//        });
     }
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();
-        startActivity(new Intent(getApplicationContext(),Register.class));
+        startActivity(new Intent(getApplicationContext(), PhoneNumberActivity.class));
         finish();
     }
 }
