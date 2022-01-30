@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vaibhav.AKGECchat.Screens.MyCollege"
-    android:background="@drawable/bg6">
+    android:background="@drawable/bg"
+    tools:context="com.vaibhav.AKGECchat.Screens.MyCollege">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,11 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -32,6 +32,7 @@
                     android:textColor="#130707"
                     android:textSize="60sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/akg"
                     android:layout_width="match_parent"
@@ -44,33 +45,37 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
+
             <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/slider"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_marginTop="5dp"
-                android:id="@+id/slider" />
+                android:layout_marginTop="5dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/black_ops_one"
-                android:layout_marginTop="5dp"
                 android:layout_marginStart="30sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/black_ops_one"
                 android:text="About AKGEC"
                 android:textColor="#0C0404"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:foregroundTint="#000000">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="The college was established in 1998 and offers B.Tech Courses in ten disciplines of Engineering. The college also offers M.Tech in Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering and Mechanical Engineering."
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="5dp"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="The college was established in 1998 and offers B.Tech Courses in ten disciplines of Engineering. The college also offers M.Tech in Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering and Mechanical Engineering."
+                    android:textColor="@color/black"></TextView>
             </ScrollView>
 
             <TextView
@@ -82,22 +87,23 @@
                 android:text="VISIT WEBSITE"
                 android:textColor="#0C0404"
                 android:textSize="30sp"
-                android:textStyle="bold">
-            </TextView>
+                android:textStyle="bold"></TextView>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-            <ImageView
-                android:layout_width="80dp"
-                android:id="@+id/webAkg"
-                android:layout_height="80dp"
-                android:src="@drawable/akgecpic"
-                android:layout_marginEnd="90dp"
-                android:layout_marginStart="80dp"
-                android:layout_marginTop="20dp">
 
-            </ImageView>
+                <ImageView
+                    android:id="@+id/webAkg"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="90dp"
+                    android:src="@drawable/akgecpic">
+
+                </ImageView>
 
                 <ImageView
                     android:id="@+id/webAktu"
@@ -112,12 +118,7 @@
             </LinearLayout>
 
 
-
-
         </LinearLayout>
-
-
-
 
 
     </ScrollView>

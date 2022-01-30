@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vaibhav.AKGECchat.Screens.PlaySong"
-    android:background="@drawable/bg6">
+    android:background="@drawable/bg"
+    tools:context="com.vaibhav.AKGECchat.Screens.PlaySong">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -24,13 +24,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="314dp"
-        android:text="TextView"
         android:ellipsize="marquee"
         android:fadingEdge="horizontal"
-        android:scrollHorizontally="true"
         android:gravity="center"
         android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
         android:singleLine="true"
+        android:text="TextView"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

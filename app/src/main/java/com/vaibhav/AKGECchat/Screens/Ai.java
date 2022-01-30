@@ -22,7 +22,7 @@ public class Ai extends AppCompatActivity {
         joinAi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://meet.google.com/iuk-edum-odf";
+                String url = "https://www.akgec.ac.in/wp-content/uploads/2021/11/RAGHURAJ-SINGH.pdf";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

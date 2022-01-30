@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg6"
+    android:background="@drawable/bg"
     tools:context=".Activities.ChatActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -16,7 +16,7 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
                     android:id="@+id/name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mian Asad Ali"
+                    android:text="Vaibhav Yadav"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />

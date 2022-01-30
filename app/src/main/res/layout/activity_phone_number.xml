@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="ChatsApp will send an SMS message to verify your phone number."
+        android:text="App will send an SMS message to verify your phone number."
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/phoneLbl"
         app:layout_constraintStart_toStartOf="@+id/phoneLbl"
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#4CAF50"
+                android:backgroundTint="#2979FF"
                 android:text="Continue" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
