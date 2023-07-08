@@ -7,7 +7,7 @@
          
 <img src="https://user-images.githubusercontent.com/75988605/123138201-63c2c080-d472-11eb-9770-ac426c96d3eb.jpg" width="356" height="700">
 <img src="
-https://ibb.co/0BpYjTt" width="356" height="700">
+https://github.com/VaibhavNerd/AKGECconnect/assets/75988605/59096cdc-01da-47ed-a12e-2aa11ea66e7e,jpg" width="356" height="700">
 <img src="
 https://ibb.co/H7Vz7KG" width="356" height="700">
 <img src="
